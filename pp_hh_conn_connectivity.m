@@ -31,7 +31,8 @@ elseif strcmp(grid, 'cortex_lowres')
   v_grid = 9;
 end
 
-freqoi=2.^(2:(1/4):6); % 2-128 Hz as per Hipp et al. (2012) Nat Neurosci
+freqoi=2.^(2:(1/4):6);
+% 2-128 Hz as per Hipp et al. (2012) Nat Neurosci
 
 %%
 % -------------------------
